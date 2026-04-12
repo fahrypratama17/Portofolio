@@ -25,6 +25,11 @@ Senandika is an AI-powered web platform where users can share their thoughts and
 The platform introduces gamification, allowing users to earn badges and rewards as they interact more frequently and build consistent engagement.
 This project blends emotional support with playful progression, creating a safe and motivating space for self-expression.
 
+### 🔗 [Pangantara](https://github.com/fahrypratama17/pangantara)
+
+Pangantara is a web platform built with Next.js that acts as a bridge between SPPG in Malang and suppliers providing essential cooking ingredients.
+The system is designed to streamline communication, manage supply needs, and ensure that resources flow efficiently from suppliers to SPPG.
+By connecting demand and supply in a structured way, Pangantara helps support operational continuity and reduces friction in the procurement process.
 ---
 
 ## 🧭 Notes
