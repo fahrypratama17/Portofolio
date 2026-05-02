@@ -30,6 +30,11 @@ Pangantara is a web platform built with Next.js that acts as a bridge between SP
 The system is designed to streamline communication, manage supply needs, and ensure that resources flow efficiently from suppliers to SPPG.
 By connecting demand and supply in a structured way, Pangantara helps support operational continuity and reduces friction in the procurement process.
 
+### 🔗 [FilkomEvent](https://github.com/fahrypratama17/FilkomEvent)
+FilkomEvent is a web-based platform that centralizes event information within the Faculty of Computer Science, Universitas Brawijaya.
+It allows students to discover events, view details, register online, and track their participation status in one place.
+On the admin side, it supports event management, participant handling, and streamlined publication, making the overall process more organized and efficient.
+
 ---
 
 ## 🧭 Notes
