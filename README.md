@@ -34,7 +34,7 @@ Think of this as my digital portfolio wall.
 ## 🗂 Projects
 
 ### 🔗 [Library System Management](https://github.com/HUB37T/Projek-Akhir)
-🔴 Archived • 2024
+🟢 Active • 2025
 
 ![Library System Management](docs/library_management_banner.svg)  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
@@ -48,7 +48,7 @@ This project focuses on combining object-oriented programming concepts with grap
 ---
 
 ### 🔗 [Senandika](https://github.com/JavaneseIvankov/senandika)
-🟡 Maintenance • 2024
+🟢 Active • 2025
 
 ![Screenshot](https://placehold.co/600x300?text=Senandika)
 
@@ -63,7 +63,7 @@ This project blends emotional support with playful progression, creating a safe 
 ---
 
 ### 🔗 [Pangantara](https://github.com/fahrypratama17/pangantara)
-🟡 Maintenance • 2025
+🟢 Active • 2026
 
 ![Screenshot](https://placehold.co/600x300?text=Pangantara)
 
@@ -77,7 +77,7 @@ By connecting demand and supply in a structured way, Pangantara helps support op
 ---
 
 ### 🔗 [FilkomEvent](https://github.com/fahrypratama17/FilkomEvent)
-🟡 Maintenance • 2025
+🟢 Active • 2026
 
 ![Screenshot](https://placehold.co/600x300?text=FilkomEvent)
 
@@ -93,7 +93,7 @@ On the admin side, it supports event management, participant handling, and strea
 ---
 
 ### 🔗 [Pendar](https://github.com/fahrypratama17/Pendar)
-🟢 Active • 2025
+🟢 Active • 2026
 
 ![Screenshot](https://placehold.co/600x300?text=Pendar)
 
