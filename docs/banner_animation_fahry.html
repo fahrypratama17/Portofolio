@@ -1,0 +1,128 @@
+
+<style>
+  @keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -400px 0; }
+    100% { background-position: 400px 0; }
+  }
+  @keyframes floatDot {
+    0%, 100% { transform: translateY(0px) scale(1); opacity: 0.5; }
+    50% { transform: translateY(-12px) scale(1.15); opacity: 1; }
+  }
+  @keyframes lineGrow {
+    from { width: 0; }
+    to { width: 80px; }
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.7; }
+  }
+
+  .banner-wrap {
+    width: 100%;
+    height: 200px;
+    background: #0f0f14;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(120,80,255,0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(120,80,255,0.08) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+  .glow-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+    animation: pulse 4s ease-in-out infinite;
+  }
+  .orb-1 { width: 220px; height: 180px; background: rgba(99,60,240,0.35); top: -40px; left: 10%; }
+  .orb-2 { width: 160px; height: 140px; background: rgba(29,158,117,0.25); bottom: -30px; right: 15%; animation-delay: 2s; }
+  .orb-3 { width: 100px; height: 100px; background: rgba(186,117,23,0.2); top: 20px; right: 30%; animation-delay: 1s; }
+
+  .dot {
+    position: absolute;
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    animation: floatDot ease-in-out infinite;
+  }
+
+  .content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+  }
+  .label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(160,130,255,0.8);
+    font-family: var(--font-mono, monospace);
+    animation: fadeSlideIn 0.7s ease both;
+    animation-delay: 0.1s;
+    opacity: 0;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--font-sans);
+    color: #fff;
+    margin: 8px 0 4px;
+    animation: fadeSlideIn 0.8s ease both;
+    animation-delay: 0.4s;
+    opacity: 0;
+    background: linear-gradient(90deg, #fff 0%, #c4b5fd 50%, #fff 100%);
+    background-size: 400px 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s linear infinite, fadeSlideIn 0.8s ease 0.4s both;
+  }
+  .sub {
+    font-size: 13px;
+    color: rgba(255,255,255,0.45);
+    font-family: var(--font-sans);
+    animation: fadeSlideIn 0.8s ease both;
+    animation-delay: 0.7s;
+    opacity: 0;
+    letter-spacing: 0.5px;
+  }
+  .line-accent {
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #7c5af0, #1d9e75);
+    border-radius: 2px;
+    margin: 10px auto 0;
+    animation: lineGrow 0.8s ease 1s both;
+  }
+</style>
+
+<div class="banner-wrap">
+  <div class="grid-bg"></div>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <div class="dot" style="background:#a78bfa; left:8%; top:30%; animation-duration:3.2s; animation-delay:0s;"></div>
+  <div class="dot" style="background:#34d399; left:15%; top:65%; animation-duration:4s; animation-delay:0.5s;"></div>
+  <div class="dot" style="background:#fbbf24; left:80%; top:25%; animation-duration:3.5s; animation-delay:1s;"></div>
+  <div class="dot" style="background:#f472b6; left:88%; top:60%; animation-duration:4.2s; animation-delay:0.3s;"></div>
+  <div class="dot" style="background:#a78bfa; left:50%; top:15%; animation-duration:3.8s; animation-delay:0.8s;"></div>
+  <div class="dot" style="background:#6ee7b7; left:60%; top:78%; animation-duration:3.1s; animation-delay:1.5s;"></div>
+
+  <div class="content">
+    <div class="label">project collection</div>
+    <div class="title">Muhamad Fahry</div>
+    <div class="sub">Building with patience & curiosity</div>
+    <div class="line-accent"></div>
+  </div>
+</div>
