@@ -36,7 +36,7 @@ Think of this as my digital portfolio wall.
 ### 🔗 [Library System Management](https://github.com/HUB37T/Projek-Akhir)
 🔴 Archived • 2024
 
-![Library System Management](docs/library_management_banner.svg)
+![Library System Management](docs/library_management_banner.svg)  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
 ![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=flat)
 
@@ -81,7 +81,9 @@ By connecting demand and supply in a structured way, Pangantara helps support op
 
 ![Screenshot](https://placehold.co/600x300?text=FilkomEvent)
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 
 FilkomEvent is a web-based platform that centralizes event information within the Faculty of Computer Science, Universitas Brawijaya.
