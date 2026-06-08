@@ -1,0 +1,136 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Project Collection by Muhamad Fahry</title>
+  <desc>Animated banner for Muhamad Fahry Pratama Putra's project collection portfolio</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f14"/>
+      <stop offset="100%" stop-color="#14101f"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c5af0"/>
+      <stop offset="100%" stop-color="#1d9e75"/>
+    </linearGradient>
+    <clipPath id="bannerClip">
+      <rect width="900" height="200" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <rect width="900" height="200" fill="url(#bg)"/>
+
+    <line x1="0" y1="36" x2="900" y2="36" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="0" y1="72" x2="900" y2="72" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="0" y1="108" x2="900" y2="108" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="0" y1="144" x2="900" y2="144" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="0" y1="180" x2="900" y2="180" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="36" y1="0" x2="36" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="72" y1="0" x2="72" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="108" y1="0" x2="108" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="144" y1="0" x2="144" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="180" y1="0" x2="180" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="216" y1="0" x2="216" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="252" y1="0" x2="252" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="288" y1="0" x2="288" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="324" y1="0" x2="324" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="360" y1="0" x2="360" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="396" y1="0" x2="396" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="432" y1="0" x2="432" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="468" y1="0" x2="468" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="504" y1="0" x2="504" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="540" y1="0" x2="540" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="576" y1="0" x2="576" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="612" y1="0" x2="612" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="648" y1="0" x2="648" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="684" y1="0" x2="684" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="720" y1="0" x2="720" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="756" y1="0" x2="756" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="792" y1="0" x2="792" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="828" y1="0" x2="828" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+    <line x1="864" y1="0" x2="864" y2="200" stroke="rgba(120,80,255,0.07)" stroke-width="1"/>
+
+    <ellipse cx="130" cy="30" rx="110" ry="90" fill="rgba(99,60,240,0.3)">
+      <animate attributeName="opacity" values="0.25;0.55;0.25" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="800" cy="170" rx="90" ry="70" fill="rgba(29,158,117,0.22)">
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="620" cy="20" rx="60" ry="50" fill="rgba(186,117,23,0.18)">
+      <animate attributeName="opacity" values="0.12;0.3;0.12" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <circle cx="72" cy="60" r="3" fill="#a78bfa">
+      <animate attributeName="cy" values="60;48;60" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="135" cy="130" r="3" fill="#34d399">
+      <animate attributeName="cy" values="130;118;130" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="50" r="3" fill="#fbbf24">
+      <animate attributeName="cy" values="50;38;50" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="792" cy="120" r="3" fill="#f472b6">
+      <animate attributeName="cy" values="120;108;120" dur="4.2s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.2s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="30" r="2.5" fill="#a78bfa">
+      <animate attributeName="cy" values="30;18;30" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="156" r="2.5" fill="#6ee7b7">
+      <animate attributeName="cy" values="156;144;156" dur="3.1s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.1s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="170" r="2" fill="#c4b5fd">
+      <animate attributeName="cy" values="170;160;170" dur="5s" begin="0.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="80" r="2" fill="#34d399">
+      <animate attributeName="cy" values="80;68;80" dur="4.5s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.5s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="450" y="78"
+      font-family="monospace, Courier New"
+      font-size="11"
+      fill="rgba(160,130,255,0.85)"
+      text-anchor="middle"
+      letter-spacing="4">
+      PROJECT COLLECTION
+      <animate attributeName="opacity" values="0;0;1" dur="0.8s" fill="freeze"/>
+    </text>
+
+    <text x="450" y="122"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="38"
+      font-weight="500"
+      text-anchor="middle"
+      fill="url(#shimmer)">
+      Muhamad Fahry
+      <animate attributeName="opacity" values="0;0;0;1" dur="1.2s" fill="freeze"/>
+    </text>
+
+    <text x="450" y="148"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="13"
+      fill="rgba(255,255,255,0.42)"
+      text-anchor="middle"
+      letter-spacing="0.5">
+      Building with patience &amp; curiosity
+      <animate attributeName="opacity" values="0;0;0;0;1" dur="1.6s" fill="freeze"/>
+    </text>
+
+    <rect x="410" y="160" width="0" height="2" rx="1" fill="url(#lineGrad)">
+      <animate attributeName="width" from="0" to="80" dur="0.8s" begin="1s" fill="freeze"/>
+      <animate attributeName="x" from="450" to="410" dur="0.8s" begin="1s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>
