@@ -1,6 +1,6 @@
 # 📚 Project Collection
 
-![Banner](https://placehold.co/900x200?text=Project+Collection+by+Fahry)
+![Banner](docs/banner_fahry.svg)
 
 > A curated collection of my personal projects.
 > Each title is a doorway to a story I once built with patience and curiosity.
@@ -36,8 +36,7 @@ Think of this as my digital portfolio wall.
 ### 🔗 [Library System Management](https://github.com/HUB37T/Projek-Akhir)
 🔴 Archived • 2024
 
-![Screenshot](https://placehold.co/600x300?text=Library+System+Management)
-
+![Library System Management](docs/library_management_banner.svg)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
 ![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=flat)
 
